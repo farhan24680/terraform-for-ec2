@@ -6,7 +6,4 @@ ignore terraform files
 *.terraform
 *.terraform.*
 
-ignore aws key files
-*.pem
-*.pub
-terraform-key
+
