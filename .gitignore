@@ -9,3 +9,4 @@ ignore terraform files
 ignore aws key files
 *.pem
 *.pub
+*key
