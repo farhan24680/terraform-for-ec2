@@ -6,4 +6,6 @@ ignore terraform files
 *.terraform
 *.terraform.*
 
-
+ignore files
+.qodo
+.vscode
