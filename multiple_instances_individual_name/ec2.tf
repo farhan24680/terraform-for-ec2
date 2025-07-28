@@ -74,6 +74,7 @@ resource "aws_instance" "my_instance" {
       automate_small= "t3.small"
     }
     )
+    depends_on                  = [ aws_security_group.my_security_group, aws_key_pair.key ]
     key_name                    = aws_key_pair.key.key_name
     security_groups             = [aws_security_group.my_security_group.name]
     instance_type               = each.value

@@ -1,8 +1,3 @@
-variable "aws_instance_type" {
-  default     = "c7i-flex.large"
-  type        = string
-}
-
 variable "aws_root_volume_size" {
   default     = 8
   type        = number
